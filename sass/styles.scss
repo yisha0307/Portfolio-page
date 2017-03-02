@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,500|Lato');
+//colors
+$primary: rgba(18%, 67%, 98%, 0.75), rgba(18%, 67%, 98%, 0.85);
+$accent: #65ce9b;
+$neutral-white: #ffffff;
+$neutral-gray: #333333;
+
+//fonts
+$primary-font: "Lato";
+$secondary-font: "Open Sans";
+$large-font-size: 68px;
+$small-font-size: 24px;
+$extra-small-font-size: 16px;
+$mobile-large-font-size: 38px;
+$mobile-small-font-size: 8px;
+$mobile-extra-small-font-size: 6px;
+$thick-font-weight: 500;
+$medium-font-weight: 300;
+$uppercase-transform: uppercase;
+//shapes
+$triangle: polygon(50% 43%, 0% 100%, 100% 100%);
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+#menuTextLeft{
+  color: $neutral-gray;
+  font-family: $secondary-font;
+  font-size: $extra-small-font-size;
+}
+
+.navigation{
+  background: none !important;
+  border: none;
+}
+
+.icon{
+  margin-right: 10px;
+  color: white;
+}
+
+.icon-one{
+  position: absolute;
+  bottom: 27%;
+  left: 20%;
+  margin-top: 40px;
+  color: $neutral-white;
+  margin-right: 10px;
+}
+
+.icon-two{
+  position: absolute;
+  bottom: 27%;
+  left: 48%;
+  margin-top: 40px;
+  color: $neutral-white;
+  margin-right: 10px;
+}
+
+.icon-three{
+  position: absolute;
+  bottom: 27%;
+  right: 20%;
+  margin-top: 40px;
+  color: $neutral-white;
+  margin-right: 10px;
+}
+
+#scale:hover{
+
+ -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+
+
+.intro-header {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: linear-gradient($primary),
+  url("https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/7823cc45224441.5829e88f95dfa.png")
+  no-repeat center center;
+  background-size: cover;
+}
+
+.bottom-triangle{
+  position: absolute;
+  bottom: -20px;
+  left: 25%;
+  height: 30%;
+  width: 50%;
+  background: $accent;
+  -webkit-clip-path: $triangle;
+clip-path: $triangle;
+  
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    color: $neutral-white;
+    font-weight: 100;
+    font-size: $large-font-size;
+    font-family: $primary-font;
+}
+
+.intro-message > h3 {
+    color: $neutral-white;
+    font-size: $small-font-size;
+    font-family: $secondary-font;
+    margin-top: 20px;
+}
+
+#button{
+  color: $neutral-white;
+  font-size: $small-font-size;
+  font-family: $secondary-font;
+  margin-top: 30px;
+  border: solid 6px $neutral-white;
+  background: $accent;
+  padding: 15px;
+  text-transform: $uppercase-transform;
+  font-weight: $thick-font-weight;
+  
+}
+
+#button-two{
+  color: $neutral-white;
+  font-size: $small-font-size;
+  font-family: $secondary-font;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: solid 6px $neutral-white;
+  background: none;
+  padding: 15px;
+  text-transform: $uppercase-transform;
+  font-weight: $thick-font-weight;
+  
+}
+.content-section-a {
+    padding: 50px;
+    padding-bottom: 80px;
+    background: $accent;
+    text-align: center;
+    color: $neutral-white;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    background: linear-gradient($primary);
+    text-align: center;
+    color: $neutral-white;
+   
+}
+
+.content-section-c {
+    padding: 50px 0;
+    padding-bottom: 20px;
+    background: $neutral-white;
+    text-align: center;
+    color: $neutral-gray;
+}
+
+.content-section-d {
+    padding: 50px 0;
+    background: $accent;
+    text-align: center;
+    color: $neutral-white;
+   
+}
+
+//mobile responsive
+@media all and (max-width: 600px) {
+  .intro-message > h1 {
+    color: $neutral-white;
+    font-weight: 100;
+    font-size: $mobile-large-font-size;
+    font-family: $primary-font;
+}
+  .icon-one{
+  position: absolute;
+  bottom: 10%;
+  left: 18%;
+  margin-top: 40px;
+  color: $neutral-white;
+  margin-right: 10px;
+}
+
+.icon-two{
+  position: absolute;
+  bottom: 10%;
+  left: 44%;
+  margin-top: 40px;
+  color: $neutral-white;
+  margin-right: 10px;
+}
+
+.icon-three{
+  position: absolute;
+  bottom: 10%;
+  right: 18%;
+  margin-top: 40px;
+  color: $neutral-white;
+  margin-right: 10px;
+}
+  
+  nav{
+    visibility: hidden;
+  }
+
+}
+
+
+
+.boards{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 5px;
+  width: 400px;
+  height: 280px;
+  background: none;
+  z-index: 1;
+}
+
+.col-left{
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  left: 7.5%;
+  top: 5%;
+  background: #E1E1E1;
+  border-radius: 3%;
+  z-index: 2;
+}
+
+
+.col-middle{
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  left: 40%;
+  top: 5%;
+  background: #E1E1E1;
+  border-radius: 3%;
+  z-index: 2;
+}
+
+
+.col-right{
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  left: 72.5%;
+  top: 5%;
+  background: #E1E1E1;
+  border-radius: 3%;
+  z-index: 2;
+}
+
+.left-block-top{
+  
+  position: absolute;
+  width: 80%;
+  height: 18%;
+  left: 10%;
+  top: 7%;
+  border-radius: 2%;
+  background: white;
+  z-index: 3;
+}
+
+.left-block-middle{
+  
+  position: absolute;
+  width: 80%;
+  height: 18%;
+  left: 10%;
+  top: 30%;
+  border-radius: 2%;
+  background: white;
+  z-index: 3;
+}
+
+.left-block-middle-2{
+  
+  position: absolute;
+  width: 80%;
+  height: 18%;
+  left: 10%;
+  top: 53%;
+  border-radius: 2%;
+  background: white;
+  z-index: 3;
+}
+
+.left-block-bottom{
+  
+  position: absolute;
+  width: 80%;
+  height: 18%;
+  left: 10%;
+  top: 76%;
+  border-radius: 2%;
+  background: white;
+  z-index: 3;
+}
+
+.ruler{
+  position: absolute;
+  bottom: -20%;
+  width: 15%;
+  height: 80%;
+  background: #F25C52;
+  z-index: 4;
+}
+
+.mark-1{
+  position: absolute;
+  left: 0%;
+  top: 5%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+.mark-1{
+  position: absolute;
+  left: 0%;
+  top: 5%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+.mark-2{
+  position: absolute;
+  left: 0%;
+  top: 15%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+.mark-3{
+  position: absolute;
+  left: 0%;
+  top: 25%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+.mark-4{
+  position: absolute;
+  left: 0%;
+  top: 35%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+.mark-5{
+  position: absolute;
+  left: 0%;
+  top: 45%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+.mark-6{
+  position: absolute;
+  left: 0%;
+  top: 55%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+.mark-7{
+  position: absolute;
+  left: 0%;
+  top: 65%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+.mark-8{
+  position: absolute;
+  left: 0%;
+  top: 75%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+.mark-9{
+  position: absolute;
+  left: 0%;
+  top: 85%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+.mark-10{
+  position: absolute;
+  left: 0%;
+  top: 95%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+.pencil{
+  position: absolute;
+  bottom: -20%;
+  left: -17%;
+  width: 15%;
+  height: 60%;
+  background: none;
+  z-index: 4;
+}
+
+.stripe-left{
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  background: #F9D354;
+}
+
+.stripe-middle{
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  left: 33%;
+  background: #F7BA4D;
+}
+
+.stripe-right{
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  right: 1%;
+  background: #F1853D;
+}
+
+.tip{
+  position: absolute;
+  width: 100%;
+  height: 21%;
+  top: -15%;
+  background: #FDDEB9;
+  -webkit-clip-path: polygon(50% 0%, 0 74%, 100% 74%);
+clip-path: polygon(50% 0%, 0 74%, 100% 74%);
+}
+
+.tip-point{
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  top: 0%;
+  background: black;
+  -webkit-clip-path: polygon(50% 0%, 0 74%, 100% 74%);
+clip-path: polygon(50% 0%, 0 74%, 100% 74%);
+  z-index: 6;
+}
+
+.bucket{
+  position: absolute;
+  bottom: -20%;
+  left: 18%;
+  width: 45%;
+  height: 60%;
+  background: none;
+  z-index: 4;
+}
+
+
+.bucket-stripe-left{
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  background: #74C198;
+}
+
+.bucket-stripe-middle{
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  left: 33%;
+  background: #36A281;
+}
+
+.bucket-stripe-right{
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  right: 1%;
+  background: #277F63;
+}
+
+.lid{
+  position: absolute;
+  top: -15%;
+  width: 99%;
+  height: 15%;
+  background: #E9E8E6;
+}
+
+.paint-stripe-left{
+  position: absolute;
+  height: 35%;
+  top: -15%;
+  width: 8%;
+  right: 21%;
+  background: #F1536A;
+  z-index: 5;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.paint-stripe-middle{
+  position: absolute;
+  height: 45%;
+  top: -15%;
+  width: 8%;
+  right: 13%;
+  background: #F1805A;
+  z-index: 5;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.paint-stripe-right{
+  position: absolute;
+  height: 28%;
+  top: -15%;
+  width: 8%;
+  right: 5%;
+  background: #7C90CF;
+  z-index: 5;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+@media all and (max-width: 600px) {
+  
+  .boards{
+  position: relative;
+  margin: auto;
+  display: block;
+    margin-top: 20%;
+    width: 250px;
+    height: 175px;
+  background: none;
+  z-index: 1;
+  }
+}
+

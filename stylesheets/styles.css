@@ -1,0 +1,598 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,500|Lato");
+/* line 23, ../sass/styles.scss */
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 30, ../sass/styles.scss */
+#menuTextLeft {
+  color: #333333;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+
+/* line 36, ../sass/styles.scss */
+.navigation {
+  background: none !important;
+  border: none;
+}
+
+/* line 41, ../sass/styles.scss */
+.icon {
+  margin-right: 10px;
+  color: white;
+}
+
+/* line 46, ../sass/styles.scss */
+.icon-one {
+  position: absolute;
+  bottom: 27%;
+  left: 20%;
+  margin-top: 40px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+/* line 55, ../sass/styles.scss */
+.icon-two {
+  position: absolute;
+  bottom: 27%;
+  left: 48%;
+  margin-top: 40px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+/* line 64, ../sass/styles.scss */
+.icon-three {
+  position: absolute;
+  bottom: 27%;
+  right: 20%;
+  margin-top: 40px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+/* line 73, ../sass/styles.scss */
+#scale:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* line 82, ../sass/styles.scss */
+.intro-header {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: linear-gradient(rgba(46, 171, 250, 0.75), rgba(46, 171, 250, 0.85)), url("https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/7823cc45224441.5829e88f95dfa.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 92, ../sass/styles.scss */
+.bottom-triangle {
+  position: absolute;
+  bottom: -20px;
+  left: 25%;
+  height: 30%;
+  width: 50%;
+  background: #65ce9b;
+  -webkit-clip-path: polygon(50% 43%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 43%, 0% 100%, 100% 100%);
+}
+
+/* line 104, ../sass/styles.scss */
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+/* line 110, ../sass/styles.scss */
+.intro-message > h1 {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 68px;
+  font-family: "Lato";
+}
+
+/* line 117, ../sass/styles.scss */
+.intro-message > h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Open Sans";
+  margin-top: 20px;
+}
+
+/* line 124, ../sass/styles.scss */
+#button {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Open Sans";
+  margin-top: 30px;
+  border: solid 6px #ffffff;
+  background: #65ce9b;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* line 137, ../sass/styles.scss */
+#button-two {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Open Sans";
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: solid 6px #ffffff;
+  background: none;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* line 150, ../sass/styles.scss */
+.content-section-a {
+  padding: 50px;
+  padding-bottom: 80px;
+  background: #65ce9b;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* line 158, ../sass/styles.scss */
+.content-section-b {
+  padding: 50px 0;
+  background: linear-gradient(rgba(46, 171, 250, 0.75), rgba(46, 171, 250, 0.85));
+  text-align: center;
+  color: #ffffff;
+}
+
+/* line 166, ../sass/styles.scss */
+.content-section-c {
+  padding: 50px 0;
+  padding-bottom: 20px;
+  background: #ffffff;
+  text-align: center;
+  color: #333333;
+}
+
+/* line 174, ../sass/styles.scss */
+.content-section-d {
+  padding: 50px 0;
+  background: #65ce9b;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media all and (max-width: 600px) {
+  /* line 184, ../sass/styles.scss */
+  .intro-message > h1 {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 38px;
+    font-family: "Lato";
+  }
+
+  /* line 190, ../sass/styles.scss */
+  .icon-one {
+    position: absolute;
+    bottom: 10%;
+    left: 18%;
+    margin-top: 40px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+
+  /* line 199, ../sass/styles.scss */
+  .icon-two {
+    position: absolute;
+    bottom: 10%;
+    left: 44%;
+    margin-top: 40px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+
+  /* line 208, ../sass/styles.scss */
+  .icon-three {
+    position: absolute;
+    bottom: 10%;
+    right: 18%;
+    margin-top: 40px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+
+  /* line 217, ../sass/styles.scss */
+  nav {
+    visibility: hidden;
+  }
+}
+/* line 225, ../sass/styles.scss */
+.boards {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 5px;
+  width: 400px;
+  height: 280px;
+  background: none;
+  z-index: 1;
+}
+
+/* line 236, ../sass/styles.scss */
+.col-left {
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  left: 7.5%;
+  top: 5%;
+  background: #E1E1E1;
+  border-radius: 3%;
+  z-index: 2;
+}
+
+/* line 248, ../sass/styles.scss */
+.col-middle {
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  left: 40%;
+  top: 5%;
+  background: #E1E1E1;
+  border-radius: 3%;
+  z-index: 2;
+}
+
+/* line 260, ../sass/styles.scss */
+.col-right {
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  left: 72.5%;
+  top: 5%;
+  background: #E1E1E1;
+  border-radius: 3%;
+  z-index: 2;
+}
+
+/* line 271, ../sass/styles.scss */
+.left-block-top {
+  position: absolute;
+  width: 80%;
+  height: 18%;
+  left: 10%;
+  top: 7%;
+  border-radius: 2%;
+  background: white;
+  z-index: 3;
+}
+
+/* line 283, ../sass/styles.scss */
+.left-block-middle {
+  position: absolute;
+  width: 80%;
+  height: 18%;
+  left: 10%;
+  top: 30%;
+  border-radius: 2%;
+  background: white;
+  z-index: 3;
+}
+
+/* line 295, ../sass/styles.scss */
+.left-block-middle-2 {
+  position: absolute;
+  width: 80%;
+  height: 18%;
+  left: 10%;
+  top: 53%;
+  border-radius: 2%;
+  background: white;
+  z-index: 3;
+}
+
+/* line 307, ../sass/styles.scss */
+.left-block-bottom {
+  position: absolute;
+  width: 80%;
+  height: 18%;
+  left: 10%;
+  top: 76%;
+  border-radius: 2%;
+  background: white;
+  z-index: 3;
+}
+
+/* line 319, ../sass/styles.scss */
+.ruler {
+  position: absolute;
+  bottom: -20%;
+  width: 15%;
+  height: 80%;
+  background: #F25C52;
+  z-index: 4;
+}
+
+/* line 328, ../sass/styles.scss */
+.mark-1 {
+  position: absolute;
+  left: 0%;
+  top: 5%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+/* line 338, ../sass/styles.scss */
+.mark-1 {
+  position: absolute;
+  left: 0%;
+  top: 5%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+/* line 347, ../sass/styles.scss */
+.mark-2 {
+  position: absolute;
+  left: 0%;
+  top: 15%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+/* line 356, ../sass/styles.scss */
+.mark-3 {
+  position: absolute;
+  left: 0%;
+  top: 25%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+/* line 365, ../sass/styles.scss */
+.mark-4 {
+  position: absolute;
+  left: 0%;
+  top: 35%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+/* line 374, ../sass/styles.scss */
+.mark-5 {
+  position: absolute;
+  left: 0%;
+  top: 45%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+/* line 383, ../sass/styles.scss */
+.mark-6 {
+  position: absolute;
+  left: 0%;
+  top: 55%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+/* line 393, ../sass/styles.scss */
+.mark-7 {
+  position: absolute;
+  left: 0%;
+  top: 65%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+/* line 402, ../sass/styles.scss */
+.mark-8 {
+  position: absolute;
+  left: 0%;
+  top: 75%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+/* line 411, ../sass/styles.scss */
+.mark-9 {
+  position: absolute;
+  left: 0%;
+  top: 85%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+/* line 421, ../sass/styles.scss */
+.mark-10 {
+  position: absolute;
+  left: 0%;
+  top: 95%;
+  width: 35%;
+  height: 3%;
+  background: #182234;
+  x-index: 5;
+}
+
+/* line 431, ../sass/styles.scss */
+.pencil {
+  position: absolute;
+  bottom: -20%;
+  left: -17%;
+  width: 15%;
+  height: 60%;
+  background: none;
+  z-index: 4;
+}
+
+/* line 441, ../sass/styles.scss */
+.stripe-left {
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  background: #F9D354;
+}
+
+/* line 448, ../sass/styles.scss */
+.stripe-middle {
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  left: 33%;
+  background: #F7BA4D;
+}
+
+/* line 456, ../sass/styles.scss */
+.stripe-right {
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  right: 1%;
+  background: #F1853D;
+}
+
+/* line 464, ../sass/styles.scss */
+.tip {
+  position: absolute;
+  width: 100%;
+  height: 21%;
+  top: -15%;
+  background: #FDDEB9;
+  -webkit-clip-path: polygon(50% 0%, 0 74%, 100% 74%);
+  clip-path: polygon(50% 0%, 0 74%, 100% 74%);
+}
+
+/* line 474, ../sass/styles.scss */
+.tip-point {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  top: 0%;
+  background: black;
+  -webkit-clip-path: polygon(50% 0%, 0 74%, 100% 74%);
+  clip-path: polygon(50% 0%, 0 74%, 100% 74%);
+  z-index: 6;
+}
+
+/* line 485, ../sass/styles.scss */
+.bucket {
+  position: absolute;
+  bottom: -20%;
+  left: 18%;
+  width: 45%;
+  height: 60%;
+  background: none;
+  z-index: 4;
+}
+
+/* line 496, ../sass/styles.scss */
+.bucket-stripe-left {
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  background: #74C198;
+}
+
+/* line 503, ../sass/styles.scss */
+.bucket-stripe-middle {
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  left: 33%;
+  background: #36A281;
+}
+
+/* line 511, ../sass/styles.scss */
+.bucket-stripe-right {
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  right: 1%;
+  background: #277F63;
+}
+
+/* line 519, ../sass/styles.scss */
+.lid {
+  position: absolute;
+  top: -15%;
+  width: 99%;
+  height: 15%;
+  background: #E9E8E6;
+}
+
+/* line 527, ../sass/styles.scss */
+.paint-stripe-left {
+  position: absolute;
+  height: 35%;
+  top: -15%;
+  width: 8%;
+  right: 21%;
+  background: #F1536A;
+  z-index: 5;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+/* line 539, ../sass/styles.scss */
+.paint-stripe-middle {
+  position: absolute;
+  height: 45%;
+  top: -15%;
+  width: 8%;
+  right: 13%;
+  background: #F1805A;
+  z-index: 5;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+/* line 551, ../sass/styles.scss */
+.paint-stripe-right {
+  position: absolute;
+  height: 28%;
+  top: -15%;
+  width: 8%;
+  right: 5%;
+  background: #7C90CF;
+  z-index: 5;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+@media all and (max-width: 600px) {
+  /* line 565, ../sass/styles.scss */
+  .boards {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 20%;
+    width: 250px;
+    height: 175px;
+    background: none;
+    z-index: 1;
+  }
+}
