@@ -14,21 +14,23 @@ html, body {
 .navigation {
   background-color: #31394d;
   border-bottom: 2px solid #262d3c;
+  padding-left: 2%;
 }
-/* line 22, ../sass/chenyisha.scss */
+/* line 23, ../sass/chenyisha.scss */
 .navigation #menuTextLeft {
   color: #ece7df;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 200;
   transition: 0.3s;
 }
-/* line 27, ../sass/chenyisha.scss */
+/* line 29, ../sass/chenyisha.scss */
 .navigation #menuTextLeft:hover {
   background-color: #fc4053;
   transform: scale(1.1);
 }
 
-/* line 34, ../sass/chenyisha.scss */
+/* line 36, ../sass/chenyisha.scss */
 .intro-header {
   padding-top: 0px;
   padding-bottom: 20px;
@@ -46,25 +48,25 @@ html, body {
     border-color: transparent;
   }
 }
-/* line 44, ../sass/chenyisha.scss */
+/* line 46, ../sass/chenyisha.scss */
 .intro-message {
   position: relative;
   padding-top: 15%;
   padding-bottom: 10%;
   color: #ece7df;
 }
-/* line 49, ../sass/chenyisha.scss */
+/* line 51, ../sass/chenyisha.scss */
 .intro-message h1 {
   font-size: 50px;
 }
-/* line 52, ../sass/chenyisha.scss */
+/* line 54, ../sass/chenyisha.scss */
 .intro-message #cys__photo {
   width: 140px;
   -webkit-clip-path: circle(70px at 70px 70px);
   object-fit: cover;
   margin-bottom: 30px;
 }
-/* line 58, ../sass/chenyisha.scss */
+/* line 60, ../sass/chenyisha.scss */
 .intro-message h3 {
   left: 30%;
   font: bold 200% Consolas, Monaco, monospace;
@@ -77,7 +79,7 @@ html, body {
   animation: typing 7s steps(13, end), blink-caret 0.5s step-end infinite alternate;
 }
 
-/* line 71, ../sass/chenyisha.scss */
+/* line 73, ../sass/chenyisha.scss */
 #particles-js {
   position: absolute;
   top: 0;
@@ -86,38 +88,38 @@ html, body {
   width: 100%;
 }
 
-/* line 79, ../sass/chenyisha.scss */
+/* line 81, ../sass/chenyisha.scss */
 .content-section-a {
   text-align: center;
   padding-top: 5%;
   margin-bottom: 5%;
 }
-/* line 83, ../sass/chenyisha.scss */
+/* line 85, ../sass/chenyisha.scss */
 .content-section-a h1 {
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-/* line 88, ../sass/chenyisha.scss */
+/* line 90, ../sass/chenyisha.scss */
 .content-section-a i {
   font-size: 30px;
 }
 
-/* line 92, ../sass/chenyisha.scss */
+/* line 94, ../sass/chenyisha.scss */
 .intro-row {
   text-align: left;
   background-color: #1789ce;
   padding: 1.5em;
   color: #fafafa;
 }
-/* line 97, ../sass/chenyisha.scss */
+/* line 99, ../sass/chenyisha.scss */
 .intro-row h3 {
   margin-left: 10%;
   font-size: 22px;
   font-weight: 100;
   text-shadow: 0 0 1px #fff;
 }
-/* line 102, ../sass/chenyisha.scss */
+/* line 104, ../sass/chenyisha.scss */
 .intro-row h3 span {
   margin-left: 8%;
   text-shadow: none;
@@ -125,24 +127,24 @@ html, body {
   font-size: 20px;
 }
 
-/* line 110, ../sass/chenyisha.scss */
+/* line 112, ../sass/chenyisha.scss */
 .hobby {
   background-color: #25e47a;
 }
 
-/* line 114, ../sass/chenyisha.scss */
+/* line 116, ../sass/chenyisha.scss */
 .content-section-b {
   text-align: center;
   padding-top: 7%;
   padding-bottom: 7%;
 }
-/* line 118, ../sass/chenyisha.scss */
+/* line 120, ../sass/chenyisha.scss */
 .content-section-b h1 {
   margin-right: 10px;
   margin-bottom: 20px;
 }
 
-/* line 124, ../sass/chenyisha.scss */
+/* line 126, ../sass/chenyisha.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -151,12 +153,12 @@ html, body {
   /* 2 */
 }
 
-/* line 130, ../sass/chenyisha.scss */
+/* line 132, ../sass/chenyisha.scss */
 .cf:after {
   clear: both;
 }
 
-/* line 134, ../sass/chenyisha.scss */
+/* line 136, ../sass/chenyisha.scss */
 .boxes {
   display: block;
   width: 44%;
@@ -169,13 +171,13 @@ html, body {
   cursor: pointer;
   box-shadow: 0 0 5px #ece7df;
 }
-/* line 145, ../sass/chenyisha.scss */
+/* line 147, ../sass/chenyisha.scss */
 .boxes .da-image {
   min-height: 100%;
   width: 100%;
 }
 
-/* line 150, ../sass/chenyisha.scss */
+/* line 152, ../sass/chenyisha.scss */
 .overlay {
   display: block;
   position: absolute;
@@ -188,14 +190,14 @@ html, body {
   z-index: 10;
   text-align: center;
 }
-/* line 161, ../sass/chenyisha.scss */
+/* line 163, ../sass/chenyisha.scss */
 .overlay p {
   font-size: 50px;
   font-weight: 300;
   padding-top: 80px;
 }
 
-/* line 168, ../sass/chenyisha.scss */
+/* line 170, ../sass/chenyisha.scss */
 .container-imgs {
   width: 1170px;
   display: block;
@@ -209,17 +211,17 @@ html, body {
     transform: scale(1.1);
   }
 }
-/* line 179, ../sass/chenyisha.scss */
+/* line 181, ../sass/chenyisha.scss */
 .btn-success {
   animation: 1s shine infinite;
 }
-/* line 181, ../sass/chenyisha.scss */
+/* line 183, ../sass/chenyisha.scss */
 .btn-success i {
   padding-right: 5px;
   font-size: 25px;
 }
 
-/* line 187, ../sass/chenyisha.scss */
+/* line 189, ../sass/chenyisha.scss */
 .content-section-c, .content-section-d, .content-section-e {
   text-align: center;
   padding-top: 5%;
@@ -227,32 +229,32 @@ html, body {
   background-color: #1789ce;
   color: #fafafa;
 }
-/* line 193, ../sass/chenyisha.scss */
+/* line 195, ../sass/chenyisha.scss */
 .content-section-c h1, .content-section-d h1, .content-section-e h1 {
   margin-right: 10px;
   margin-bottom: 20px;
 }
-/* line 197, ../sass/chenyisha.scss */
+/* line 199, ../sass/chenyisha.scss */
 .content-section-c .row, .content-section-d .row, .content-section-e .row {
   padding-bottom: 3%;
 }
 
-/* line 202, ../sass/chenyisha.scss */
+/* line 204, ../sass/chenyisha.scss */
 .content-section-d {
   background-color: #fdbb2c;
   color: #000;
 }
 
-/* line 206, ../sass/chenyisha.scss */
+/* line 208, ../sass/chenyisha.scss */
 .md-img {
   transition: 0.2s;
 }
-/* line 208, ../sass/chenyisha.scss */
+/* line 210, ../sass/chenyisha.scss */
 .md-img:hover {
   transform: scale(1.1);
 }
 
-/* line 212, ../sass/chenyisha.scss */
+/* line 214, ../sass/chenyisha.scss */
 .boxes-md {
   display: block;
   width: 30%;
@@ -265,12 +267,12 @@ html, body {
   cursor: pointer;
   box-shadow: 0 0 5px #ece7df;
 }
-/* line 223, ../sass/chenyisha.scss */
+/* line 225, ../sass/chenyisha.scss */
 .boxes-md .md-image {
   min-height: 100%;
   width: 100%;
 }
-/* line 227, ../sass/chenyisha.scss */
+/* line 229, ../sass/chenyisha.scss */
 .boxes-md .overlay-md {
   display: block;
   position: absolute;
@@ -283,47 +285,47 @@ html, body {
   z-index: 10;
   text-align: center;
 }
-/* line 238, ../sass/chenyisha.scss */
+/* line 240, ../sass/chenyisha.scss */
 .boxes-md .overlay-md p {
   font-size: 20px;
   font-weight: 300;
   padding-top: 80px;
 }
 
-/* line 245, ../sass/chenyisha.scss */
+/* line 247, ../sass/chenyisha.scss */
 .content-section-e {
   background-color: #fc4053;
 }
-/* line 247, ../sass/chenyisha.scss */
+/* line 249, ../sass/chenyisha.scss */
 .content-section-e h1 {
   margin-bottom: 30px;
 }
-/* line 250, ../sass/chenyisha.scss */
+/* line 252, ../sass/chenyisha.scss */
 .content-section-e #lead-1 {
-  margin-left: -115px;
+  margin-left: -88px;
 }
-/* line 253, ../sass/chenyisha.scss */
+/* line 255, ../sass/chenyisha.scss */
 .content-section-e i {
   font-size: 30px;
   margin-right: 10px;
 }
 
-/* line 258, ../sass/chenyisha.scss */
+/* line 260, ../sass/chenyisha.scss */
 .boxes-sm {
   width: 22%;
   height: 160px;
   margin: 1.5%;
 }
-/* line 262, ../sass/chenyisha.scss */
+/* line 264, ../sass/chenyisha.scss */
 .boxes-sm .sm-image {
   min-height: 100%;
   width: 100%;
 }
-/* line 266, ../sass/chenyisha.scss */
+/* line 268, ../sass/chenyisha.scss */
 .boxes-sm .overlay-sm {
   background-color: #fc4053;
 }
-/* line 268, ../sass/chenyisha.scss */
+/* line 270, ../sass/chenyisha.scss */
 .boxes-sm .overlay-sm p {
   font-size: 20px;
   font-weight: 300;

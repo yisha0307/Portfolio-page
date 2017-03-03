@@ -19,8 +19,10 @@ html,body{
 .navigation{
 	background-color: $bg-dark-gray;
 	border-bottom: 2px solid $blue-black;
+	padding-left: 2%;
 	#menuTextLeft{
 		color: $white;
+		cursor: pointer;
 		font-size:16px;
 		font-weight: 200;
 		transition: 0.3s;
@@ -248,7 +250,7 @@ html,body{
 		margin-bottom: 30px;
 	}
 	#lead-1{
-		margin-left: -115px;
+		margin-left: -88px;
 	}
 	i{
 		font-size: 30px;

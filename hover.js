@@ -33,6 +33,7 @@ $(document).ready(function(){
       const w = this.clientWidth;
       const h = this.clientHeight;
       const enterResult = closestDist(x,y,w,h);
+      console.log(x,y,w,h);
     
       switch(enterResult){
         case 'top':
