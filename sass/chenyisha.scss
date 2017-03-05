@@ -48,6 +48,7 @@ html,body{
     background-color: $bg-dark-gray;
 }
 
+
 @keyframes typing { 0% { width: 0; } }
 @keyframes blink-caret { 50% { border-color: transparent; } }
 
@@ -77,6 +78,21 @@ html,body{
 	    blink-caret .5s step-end infinite alternate;
 	}
 }
+img.icon{
+	width:200px;
+	height: 200px;
+}
+.intro_p{
+	margin-top:10px;
+	font-size:18px;
+	color:$bg-dark-gray;
+	margin-top:10%;
+	text-shadow: 0 0 1px #eee;
+	transition: 0.2s;
+	&:hover{
+		transform: scale(1.1);
+	}
+}
 
 #particles-js{
 	position: absolute;
@@ -97,6 +113,9 @@ html,body{
 	}
 	i{
 		font-size: 30px;
+	}
+	.lead{
+		margin-bottom: 4%;
 	}
 }
 .intro-row{
